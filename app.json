@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "iconPath": "/images/grape.png",
+        "selectedIconPath": "/images/grape.png",
+        "pagePath": "pages/home/home",
+        "text": "bloglist实验"
+      },
+      {
+        "iconPath": "/images/mango.png",
+        "selectedIconPath": "/images/mango.png",
+        "pagePath": "pages/index/index",
+        "text": "默认主页"
+      },
+      {
+        "iconPath": "/images/cherry.png",
+        "selectedIconPath": "/images/cherry.png",
+        "pagePath": "pages/login/login",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "软微疫情上报",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

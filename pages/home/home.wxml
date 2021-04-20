@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<swiper>
+  <swiper-item>
+    <image src="/images/pic1.jpeg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/pic2.jpeg"></image>
+  </swiper-item>
+</swiper>
+
+<button bindtap="change">
+  变成bloglist
+</button>
+
+<block wx:for="{{mylist}}">
+  <view>{{item.title}}</view>
+</block>
+
+<block wx:for="{{newlist}}">
+  <view>{{item.title}}</view>
+</block>
+
+<button bindtap="login">
+  立刻登录
+</button>
